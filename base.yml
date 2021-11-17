@@ -40,6 +40,7 @@ opt_in_rules:
   - contains_over_filter_count
   - contains_over_filter_is_empty
   - reduce_into
+  - no_extension_access_modifier
 custom_rules:
   comment_whitespace:
     name: "Comment Whitespace"
@@ -52,6 +53,7 @@ custom_rules:
     message: "Use four spaces, not tabs"
 force_try: warning
 force_cast: warning
+no_extension_access_modifier: warning
 function_body_length: 80
 cyclomatic_complexity: 12
 function_parameter_count: 7
